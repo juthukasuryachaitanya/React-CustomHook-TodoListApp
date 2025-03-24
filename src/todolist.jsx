@@ -7,9 +7,7 @@ import Eachtodo from "./eachtodo";
 
 function Todolist() {
     var [todos, addtodo, deltodo,enable,clear,toggle,setToggle,ref1] = useTodo()
-    var [newtodo, setNewtodo] = useState('')
-   
-   
+    var [newtodo, setNewtodo] = useState('')   
     return (
         <div style={{ marginLeft: "550px", width: "280px",marginTop:"50px" }} className="border border-2">
             <center><h1 className="text-danger">Todolist</h1></center>
