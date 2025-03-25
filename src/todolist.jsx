@@ -26,7 +26,7 @@ function Todolist() {
 
 
             <div style={{ display: "flex", justifyContent: "center", width: "250px" }}>
-                <ol >
+                <ol  >
                     {
                         todos.map((todo, index) => {
                             return <Eachtodo todo={todo} key={index} index={index} deltodo={deltodo}></Eachtodo>
